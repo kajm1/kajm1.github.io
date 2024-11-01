@@ -1,12 +1,80 @@
 <!DOCTYPE html>
-<html lang="">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title></title>
+    <title>New Tab</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="icon" href="logo.png">
+    <link href="https://fonts.cdnfonts.com/css/sharp-sans" rel="stylesheet">
   </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+  <body bgcolor="#2b2a33">
+    <div class="container">
+      <div class="logo-container">
+          <img src="logo.png" class="logo">
+          <span class="title">&nbspFirefox</span>
+      </div class="logo-container">
+<br>
+      <form action="https://www.google.com/search" method="GET">
+        <input id="search" type="text" name="q" placeholder="Search with Google or enter address">
+      </form>
+<br>
+        <div class="shortcuts">
+            <div class="shortcut">
+                <a href="https://login.tailscale.com/admin/machines"><button id="tailscale_button"></button></a>
+                <p id="Tailscale">Tailscale</p>
+            </div>
+            <div class="shortcut">
+                <a href="https://192.168.1.254:9090"><button id="cockpit_button"></button></a>
+                <p>Cockpit</p>
+            </div>
+            <div class="shortcut">
+                <a href="https://192.168.1.254:9443"><button id="portainer_button"></button></a>
+                <p>Portainer</p>
+            </div>
+            <div class="shortcut">
+                <a href="http://192.168.1.254:3001"><button id="dash_button"></button></a>
+                <p>Dash</p>
+            </div>
+            <div class="shortcut">
+               <a href="http://192.168.1.254:7575/board"><button id="homarr_button"></button></a>
+                <p>Homarr</p>
+            </div>
+            <div class="shortcut">
+                <a href="http://192.168.1.254:8888/admin/index.php"><button id="pihole_button"></button></a>
+                <p>Pi-hole</p>
+            </div>
+            <div class="shortcut">
+                <a href="https://192.168.1.254"><button id="nextcloud_button"></button></a>
+                <p>Nextcloud</p>
+            </div>
+            <div class="shortcut">
+                <a href="https://192.168.1.254:8096"><button id="jellyfin_button"></button></a>
+                <p>Jellyfin</p>
+            </div>
+            <div class="shortcut">
+                <a href="http://192.168.1.254:5000/home"><button id="kavita_button"></button></a>
+                <p>Kavita</p>
+            </div>
+            <div class="shortcut">
+              <a href="http://192.168.1.254:40/dashboard"><button id="azuracast_button"></button></a>
+              <p>AzuraCast</p>
+            </div>
+        </div class="shortcuts">
+        <div class="shortcuts">
+            <div class="shortcut">
+              <a href="http://192.168.1.254:9925"><button id="mealie_button"></button></a>
+              <p>Mealie</p>
+            </div>
+            <div class="shortcut">
+              <a href="http://192.168.1.254:5800/"><button id="jdownloader2_button"></button></a>
+              <p>Jdownload</p>
+            </div>
+            <div class="shortcut">
+              <a href="http://192.168.1.254:8287/HRProprietary/HRConvert2/convertCore.php"><button id="hrconvert2_button"></button></a>
+              <p>HRConvert</p>
+            </div>
+            </div>
+          </div class="shortcuts">
+    </div class="container">
   </body>
 </html>
