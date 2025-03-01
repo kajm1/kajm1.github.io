@@ -18,11 +18,21 @@
         <input id="search" type="text" name="q" placeholder="Search with Google or enter address">
       </form>
 <br>
-        <div class="shortcuts">
+<div class="shortcuts">
             <div class="shortcut">
                 <a href="https://login.tailscale.com/admin/machines"><button id="tailscale_button"></button></a>
                 <p id="Tailscale">Tailscale</p>
             </div>
+            <div class="shortcut">
+                <a href="http://192.168.1.2:8080"><button id="webfig_button"></button></a>
+                <p id="Webfig">Webfig</p>
+            </div>
+            <div class="shortcut">
+                <a href="http://192.168.1.254:8888/admin/index.php"><button id="pihole_button"></button></a>
+                <p>Pi-hole</p>
+            </div>
+</div>
+<div class="shortcuts">
             <div class="shortcut">
                 <a href="https://192.168.1.254:9090"><button id="cockpit_button"></button></a>
                 <p>Cockpit</p>
@@ -37,11 +47,7 @@
             </div>
             <div class="shortcut">
                <a href="http://192.168.1.254:7575/board"><button id="homarr_button"></button></a>
-                <p>Homarr</p>
-            </div>
-            <div class="shortcut">
-                <a href="http://192.168.1.254:8888/admin/index.php"><button id="pihole_button"></button></a>
-                <p>Pi-hole</p>
+               <p>Homarr</p>
             </div>
             <div class="shortcut">
                 <a href="https://192.168.1.254"><button id="nextcloud_button"></button></a>
@@ -59,7 +65,6 @@
               <a href="http://192.168.1.254:40/dashboard"><button id="azuracast_button"></button></a>
               <p>AzuraCast</p>
             </div>
-
             <div class="shortcut">
               <a href="http://192.168.1.254:9925"><button id="mealie_button"></button></a>
               <p>Mealie</p>
@@ -72,6 +77,6 @@
               <a href="http://192.168.1.254:8287/HRProprietary/HRConvert2/convertCore.php"><button id="hrconvert2_button"></button></a>
               <p>HRConvert</p>
             </div>
-            </div>
+</div>
   </body>
 </html>
