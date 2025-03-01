@@ -149,6 +149,11 @@ button {
     background-size: 50px;
 }
 
+#webfig_button {
+    background-image: url(Webfig.png);
+    background-size: 55px;
+}
+
 button:hover { 
     outline: 5px solid #55555C;
     cursor: pointer;
